@@ -1,0 +1,21 @@
+application: phpne14
+version: alpha1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /bootstrap\.min\.css
+  static_files: bootstrap.min.css
+  upload: bootstrap\.min\.css
+
+- url: /search\.js
+  static_files: search.js
+  upload: search\.js
+
+- url: /search
+  script: search.php
+
+- url: .*
+  script: main.php
