@@ -7,7 +7,7 @@
  *
  * @author Tom Walder <tom@docnet.nu>
  */
-class FTSearch
+class Search
 {
 
     /**

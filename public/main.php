@@ -7,8 +7,8 @@
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Search object
-    require_once('FTSearch.php');
-    $obj_search = new FTSearch();
+    require_once('../src/Search.php');
+    $obj_search = new Search();
 
     // Execute Query
     if(isset($_POST['search'])) {
